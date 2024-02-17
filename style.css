@@ -1,0 +1,43 @@
+*{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    justify-content:center ;
+    display: flex;
+    margin: 10px;
+}
+.background{
+    background-color: rgb(248, 243, 236);
+    display: flex;
+    height: 'vh-100';
+    justify-content: center;
+    width: 100%;
+}
+
+#id{
+    margin-right: 100px;
+}
+   
+@media  screen and (max-width : 700px) {
+    body{
+        background-color: rgb(95, 58, 12);
+    }
+    .row{
+        width : 1000px;
+        margin : px;
+        flex-wrap: wrap;
+        height:200px;
+        
+    }
+    .col3{
+        height: 4px;
+        width: 4px;
+    }
+    *{
+        overflow-x: hidden ;
+    }
+    input{
+        margin: 50px;
+        
+    }
+}
